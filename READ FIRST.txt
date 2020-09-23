@@ -1,0 +1,50 @@
+Important information reguarding Andromeda Source Code
+-------------------  11:33:25 PM - 10/14/00 ---------------------
+
+Before you will be able to successfully use Andromeda, you
+will need to do a few things:
+
+1. Either compile both projects into executable format, or open
+both Visual Basic project files (vbp). If you don't have more than
+one computer to test Andromeda with, you can use your own IP
+address as the server (you must also have the server application running)..
+If you are using seperate machines to test it, put the server application
+(compiled, or run directly from Visual Basic) on one machine, and the
+client side software on the other. 
+
+2. Inside the server, you must add a user. To do this, run the server,
+and press Ctrl + N (or click Users -> Create New User). Write down
+the user's password, and use that password on the client side when
+logging into the Andromeda server
+
+3. Also inside the server, you must add shared folders before a user
+will be able to see files on the server's disk. To do this,click Tools -> 
+Manage Shared Directories on the server. This will display the shared 
+folders dialog. Click Add and browse to a folder you wish to share
+with Andromeda clients. When you are done adding the folders you 
+wish to share, click Save.
+
+4. You might also want to take a look at the server options dialog. This 
+contains all available configuration for the Andromeda RFS. To do this,
+click Ctrl + C inside the server's main window.
+
+5. You will need the IP Address of the server machine. To find this,
+press the Windows Key and R simultaneously on the server computer.
+When the Run dialog appears, type WINIPCFG and press Enter. This 
+is the Windows IP Address configuration program. Your IP Address
+should be something like 209.88.99.210. Enter this number in the client
+software when adding the Andromeda server to the server list.
+
+If you followed the instructions correctly, you are ready to use Andromeda.
+Just make sure the server is in Enabled mode, and use the client software
+to log in! 
+
+Bugs:
+
+If you find bugs in Andromeda, or have suggestions for improvements,
+please email them to rlederman@mad.scientist.com. We appreciate all
+feedback!
+
+Visit the Andromeda website: www.induhviduals.com/andromeda
+
+Ryan and Drew Lederman
